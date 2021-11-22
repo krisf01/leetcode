@@ -26,12 +26,14 @@ int main ()
     Solution solution;
     vector<int> a = {4, 1, 2, 1, 2};
     solution.singleNumber(a);
+    
+    //for (int x : a) x *= 2;
     for (int i = 0; i < a.size(); i++)
     {
         cout << a.at(i);
-        cout << endl;
     }
     cout << endl;
     cout << solution.singleNumber(a);
     cout << endl;
 }
+
